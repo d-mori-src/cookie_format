@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: #000;
+    overflow-x: hidden;
+    background: #fff;
+}
+p { 
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+    &:hover { opacity: .5; }
+}
+ul li { list-style: none; }
+img { vertical-align: top; }
